@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.mavenproject2bmicalculator;
+package com.mycompany.bmicalculator;
 
 /**
  *
@@ -24,7 +24,7 @@ BMI = weight / (height × height)
 o Divide the weight by the square of the height.
 o Display the BMI value.
 */
-public class Mavenproject2BMICalculator {
+public class BMICalculator {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
