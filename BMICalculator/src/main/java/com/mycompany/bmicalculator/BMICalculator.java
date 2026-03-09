@@ -4,6 +4,8 @@
 
 package com.mycompany.bmicalculator;
 
+import java.util.Scanner;
+
 /**
  *
  * @author hazel
@@ -27,6 +29,18 @@ o Display the BMI value.
 public class BMICalculator {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner scan = new Scanner(System.in);
+         System.out.print("Please enter in you weight in kilograms:");
+         double weight = scan.nextDouble();
+         System.out.print("Please enter in you hieght in meters:");
+         double height = scan.nextDouble();
+         
+         double bmi = (weight)/(height*height);
+        System.out.println("Your weight  is : " +weight+ "kg");
+
+         System.out.println("Your height is : " +height+ "m");
+         System.out.println("Your bmi is : " +bmi);
+
+         scan.close();
     }
 }
